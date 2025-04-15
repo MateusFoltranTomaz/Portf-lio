@@ -1,6 +1,6 @@
-# Portfólio
+# Portfólio (2025) 😁📑✝️
 
-## Esse é o meu Portfólio (2025)
+## Programado em HTML e CSS 💻
 
 ## - Página "Sobre"
 ![image](https://github.com/user-attachments/assets/b367081b-7a66-4ff9-a5ea-6e76687dca39)

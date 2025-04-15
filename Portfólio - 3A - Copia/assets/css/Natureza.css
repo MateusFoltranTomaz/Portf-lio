@@ -1,0 +1,118 @@
+/* Reset básico */
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #145214;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(26, 99, 19);
+    min-width: 150px;
+    list-style: none;
+    top: 35px;
+    left: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content li a {
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header.nome-pagina {
+    background-color: #2a7c2a;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/imgs/capa-natureza.webp'); /* caminho da imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+header.nome-pagina h2{
+    background-color: rgba(255, 255, 255, 0.9);  /* fundo branco meio transparente */
+    padding: 10px 30px;                          /* aumenta o espaço interno */                         
+    color: #1a6313;                                /* cor do texto */
+    font-size: 40px;                             /* tamanho do texto */
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.rodape {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333; 
+}
+
+.rodape a {
+    color: #1a6313;
+    text-decoration: underline;
+}
+
+.rodape a:hover {
+    color: #ffcc00;
+}
